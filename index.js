@@ -56,7 +56,6 @@ client.connect(err => {
             })
     });
 
-
     app.post('/addReview', (req, res) => {
         const reviewInfo = req.body;
         console.log(reviewInfo);
